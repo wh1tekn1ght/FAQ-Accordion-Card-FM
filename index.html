@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <main class="card">
+    <div class="card__image">
+      <picture>
+        <source class="desktop-fg" srcset="./images/illustration-woman-online-desktop.svg" media="(min-width: 769px)">
+        <img class="mobile-fg" src="./images/illustration-woman-online-mobile.svg" alt="" aria-hidden="true">
+      </picture>
+      <img class="box-image-desktop" src="./images/illustration-box-desktop.svg" aria-hidden="true" alt="">
+      <picture>
+        <source srcset="./images/bg-pattern-desktop.svg" media="(min-width: 769px)">
+        <img class="mobile-bg" src="./images/bg-pattern-mobile.svg" alt="" aria-hidden="true">
+      </picture>
+    </div>
+    <section class="card__questions">
+      <h1>FAQ</h1>
+      <div class="questions-container">
+        <div class="card__question">
+          <p id="question" class="question">How many team members can I invite? <span class="arrow-icon"></span></p>
+          <p class="answer inactive">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+        </div>
+        <div class="card__question">
+          <p class="question">What is the maximum file upload size? <span class="arrow-icon"></span></p>
+          <p class="answer inactive">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+        <div class="card__question">
+          <p class="question">How do I reset my password? <span class="arrow-icon"></span></p>
+          <p class="answer inactive">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+        </div>
+        <div class="card__question">
+          <p class="question"> Can I cancel my subscription? <span class="arrow-icon"></span></p>
+          <p class="answer inactive">Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+        <div class="card__question">
+          <p class="question">Do you provide additional support? <span class="arrow-icon"></span></p>
+          <p class="answer inactive">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
