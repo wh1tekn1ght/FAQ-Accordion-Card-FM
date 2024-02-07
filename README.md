@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://github.com/nimrodcode/FAQ-Accordion-Card-FM)
-- Live Site URL: [URL here](https://nimrodcode.github.io/FAQ-Accordion-Card-FM/)
+- Solution URL: [URL here](https://github.com/whiteknight-dev/FAQ-Accordion-Card-FM)
+- Live Site URL: [URL here](https://whiteknight-dev.github.io/FAQ-Accordion-Card-FM/)
 ## My process
 
 ### Built with
@@ -80,5 +80,5 @@ I would like to improve:
 
 ## Author
 
-- Frontend Mentor - [@fermendoza18](https://www.frontendmentor.io/profile/fermendoza18)
+- Frontend Mentor - [@whiteknight-dev](https://www.frontendmentor.io/profile/whiteknight-dev)
 
